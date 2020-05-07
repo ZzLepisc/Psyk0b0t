@@ -1,0 +1,15 @@
+{
+  "name": "psyk0b0t",
+  "version": "1.0.0",
+  "description": "Bot pour psyk0tr0pe",
+  "main": "main.js",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zz_Lepisc",
+  "license": "ISC"
+}
