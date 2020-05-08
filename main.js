@@ -267,10 +267,9 @@ client.on("message", (message) => {
 }});
 
 const helpEmbed = new Discord.MessageEmbed()
-.setTitle("Voici les commandes !")
+.setTitle("Voici les commandes !").setImage("https://cdn.discordapp.com/attachments/707929619478610040/708364009031598110/Psyk0_face_112.png")
 .setAuthor("Psyk0b0t")
-.setImage("https://cdn.discordapp.com/attachments/707929619478610040/708364009031598110/Psyk0_face_112.png")
-.setColor(0x00AE86)
+.setColor(eb0b0b)
 .setDescription("Psyk0b0t est hébergé sur héroku, il est codé en Java scrypte par Zz_Lepisc#8288")
 .setDescription("Les commandes possibles sont :")
 .addField("Les commande p!ban, p!kick, p!clear, sont pour la modération !", true)
