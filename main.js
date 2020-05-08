@@ -272,16 +272,16 @@ const helpEmbed = new Discord.MessageEmbed()
 .setColor(0x00AE86)
 .setDescription("Psyk0b0t est hébergé sur héroku, il est codé en Java scrypte par Zz_Lepisc#8288")
 .setDescription("Les commandes possibles sont :")
-.setDescription("Les commande p!ban, p!kick, p!clear, sont pour la modération !")
-.setDescription("La commande p!ms, vous donne le ping de Psyk0b0t,")
-.setDescription("La commande p!twitch, vous donne le lien twitch de Psyk0tr0pe,")
-.setDescription("La commande p!twitter, vous donne le twitter de Psyk0tr0pe,")
-.setDescription("La commande p!youtube, vous donne la chaine youtube de Psyk0tr0pe,")
-.setDescription("La commande p!snap, vous donne le snapchat de Psyk0tr0pe,")
-.setDescription("La commande p!projet, vous donne le projet future de Psyk0tr0pe,")
-.setDescription("La commande p!setup, vous donne le setup de Psyk0tr0pe,")
-.setDescription("La commande p!donnation, vous donne le lien de donnation,")
-.setDescription("La commande p!background, vous donne le background de Victor MacAllen.");
+.addField("Les commande p!ban, p!kick, p!clear, sont pour la modération !")
+.addField("La commande p!ms, vous donne le ping de Psyk0b0t,")
+.addField("La commande p!twitch, vous donne le lien twitch de Psyk0tr0pe,")
+.addField("La commande p!twitter, vous donne le twitter de Psyk0tr0pe,")
+.addField("La commande p!youtube, vous donne la chaine youtube de Psyk0tr0pe,")
+.addField("La commande p!snap, vous donne le snapchat de Psyk0tr0pe,")
+.addField("La commande p!projet, vous donne le projet future de Psyk0tr0pe,")
+.addField("La commande p!setup, vous donne le setup de Psyk0tr0pe,")
+.addField("La commande p!donnation, vous donne le lien de donnation,")
+.addField("La commande p!background, vous donne le background de Victor MacAllen.");
  
 
 
