@@ -266,7 +266,7 @@ client.on("message", (message) => {
     message.channel.send(helpEmbed)
 }});
 
-const helpEmbed = new Discord.MessageEmbed()
+/*const helpEmbed = new Discord.MessageEmbed()
 .setTitle("Voici les commandes !").setImage("https://cdn.discordapp.com/attachments/707929619478610040/708364009031598110/Psyk0_face_112.png")
 .setAuthor("Psyk0b0t")
 .setColor(0xeb0b0b)
@@ -281,7 +281,7 @@ const helpEmbed = new Discord.MessageEmbed()
 .addField("La commande p!setup, vous donne le setup de Psyk0tr0pe,", true)
 .addField("La commande p!donnation, vous donne le lien de donnation,", true)
 .addField("La commande p!background, vous donne le background de Victor MacAllen.", true);
-
+*/
 
 const helpEmbed = new Discord.MessageEmbed()
 .setTitle("Voici les commandes !")
