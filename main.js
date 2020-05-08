@@ -142,14 +142,6 @@ client.on('message', function (message) {
   
 //----------------------------------------------------BAN---------------------------------------
   
-//---------------------------------------------twitch---------------------------------------------
-client.on("message", (message) => {
-    if (message.content.startsWith("p!twitch")) {
-      message.delete()
-          console.log("La commande !twitch viens d'être réaliser par un utilisateur")
-      message.channel.send("Voici mon twitch : https://www.twitch.tv/psyk0tr0pe ");
-    }
-});
 
 //----------------------------------------créateur----------------------------------------
 
@@ -162,13 +154,53 @@ client.on("message", (message) => {
 });
 
 
-//-----------------------------------------------reseau-----------------------------------
+//-----------------------------------------------reseaux-----------------------------------
 
 
 client.on("message", (message) => {
-  if (message.content.startsWith("p!reseaux")) {
+  if (message.content.startsWith("p!twitter")) {
+    message.delete()
+        console.log("La commande p!twitter viens d'être réaliser par un utilisateur")
+    message.channel.send("twitter : https://twitter.com/Psyk0tr0peTV");
+  }
+});
+
+
+client.on("message", (message) => {
+  if (message.content.startsWith("p!youtube")) {
+    message.delete()
+        console.log("La commande p!youtube viens d'être réaliser par un utilisateur")
+    message.channel.send("youtube : https://www.youtube.com/channel/UCaC3O3ZWwzg2MzpUerqeQ_Q");
+  }
+});
+
+
+client.on("message", (message) => {
+  if (message.content.startsWith("p!snap")) {
+    message.delete()
+        console.log("La commande p!snap viens d'être réaliser par un utilisateur")
+    message.channel.send("Snapchat : psykotropetv");
+  }
+});
+
+
+client.on("message", (message) => {
+  if (message.content.startsWith("p!twitch")) {
     message.delete()
         console.log("La commande !twitch viens d'être réaliser par un utilisateur")
-    message.channel.send("twitter : https://twitter.com/Psyk0tr0peTV ,            youtube : https://www.youtube.com/channel/UCaC3O3ZWwzg2MzpUerqeQ_Q ,            snap : psykotropetv ,              twitch : https://www.twitch.tv/psyk0tr0pe ");
+    message.channel.send("twitch : https://www.twitch.tv/psyk0tr0pe ");
+  }
+});
+
+
+//Nouvelles émotes de subs et nouveau badges à venir pour participer à l'amélioration : https://twitch.streamlabs.com/psyk0tr0pe
+
+//----------------------------------------------projet--------------------------------------------
+
+client.on("message", (message) => {
+  if (message.content.startsWith("p!projet")) {
+    message.delete()
+        console.log("La commande p!projet viens d'être réaliser par un utilisateur")
+    message.channel.send("Nouvelles émotes de subs et nouveau badges à venir pour participer à l'amélioration : https://twitch.streamlabs.com/psyk0tr0pe");
   }
 });
