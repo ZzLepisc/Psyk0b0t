@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
+new Discord.MessageEmbed();
 
 
 //------------------------------------------------IMPORANT/SECRET---------------------------------------
@@ -261,20 +262,26 @@ client.on("message", (message) => {
 client.on("message", (message) => {
   if (message.content.startsWith("p!help")) {
     message.delete()
-        console.log("La commande p!donnation viens d'être réaliser par un utilisateur")
-    message.channel.send("Psyk0b0t est hébergé sur héroku, il est codé en Java scrypte par Zz_Lepisc#8288");
-    message.channel.send("Les commandes possibles sont : ")
-    message.channel.send("Les commande p!ban, p!kick, p!clear, sont pour la modération !")
-    message.channel.send(" La commande p!ms, vous donne le ping de Psyk0b0t,")
-    message.channel.send("La commande p!twitch, vous donne le lien twitch de Psyk0tr0pe,")
-    message.channel.send("La commande p!twitter, vous donne le twitter de Psyk0tr0pe,")
-    message.channel.send("La commande p!youtube, vous donne la chaine youtube de Psyk0tr0pe,")
-    message.channel.send("La commande p!snap, vous donne le snapchat de Psyk0tr0pe,")
-    message.channel.send("La commande p!projet, vous donne le projet future de Psyk0tr0pe,")
-    message.channel.send("La commande p!setup, vous donne le setup de Psyk0tr0pe,")
-    message.channel.send("La commande p!donnation, vous donne le lien de donnation,")
-    message.channel.send("La commande p!background, vous donne le background de Victor MacAllen.")
-  }
-});
+        console.log("La commande p!help viens d'être réaliser par un utilisateur")
+    message.channel.send(helpEmbed)
+}});
+
+const helpEmbed = new Discord.MessageEmbed()
+.setTitle("Voici les commandes !")
+.setAuthor("Psyk0b0t")
+.setColor(0x00AE86)
+.setDescription("Psyk0b0t est hébergé sur héroku, il est codé en Java scrypte par Zz_Lepisc#8288")
+.setDescription("Les commandes possibles sont :")
+.setDescription("Les commande p!ban, p!kick, p!clear, sont pour la modération !")
+.setDescription("La commande p!ms, vous donne le ping de Psyk0b0t,")
+.setDescription("La commande p!twitch, vous donne le lien twitch de Psyk0tr0pe,")
+.setDescription("La commande p!twitter, vous donne le twitter de Psyk0tr0pe,")
+.setDescription("La commande p!youtube, vous donne la chaine youtube de Psyk0tr0pe,")
+.setDescription("La commande p!snap, vous donne le snapchat de Psyk0tr0pe,")
+.setDescription("La commande p!projet, vous donne le projet future de Psyk0tr0pe,")
+.setDescription("La commande p!setup, vous donne le setup de Psyk0tr0pe,")
+.setDescription("La commande p!donnation, vous donne le lien de donnation,")
+.setDescription("La commande p!background, vous donne le background de Victor MacAllen.");
+ 
 
 
