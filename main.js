@@ -160,3 +160,18 @@ client.on("message", (message) => {
       message.channel.send("Ce bot a était créé par @Zz_Lepisc#8288 pour la caumunauté du grand streamer Psyk0tr0pe");
     }
 });
+
+
+//-----------------------------------------------reseau-----------------------------------
+
+
+client.on("message", (message) => {
+  if (message.content.startsWith("p!reseaux")) {
+    message.delete()
+        console.log("La commande !twitch viens d'être réaliser par un utilisateur")
+    message.channel.send("twitter : https://twitter.com/Psyk0tr0peTV" ,
+              "youtube : https://www.youtube.com/channel/UCaC3O3ZWwzg2MzpUerqeQ_Q " ,
+                 "snap : psykotropetv" ,
+                      " twitch : https://www.twitch.tv/psyk0tr0pe ");
+  }
+});
