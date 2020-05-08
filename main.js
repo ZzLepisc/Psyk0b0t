@@ -266,27 +266,12 @@ client.on("message", (message) => {
     message.channel.send(helpEmbed)
 }});
 
-/*const helpEmbed = new Discord.MessageEmbed()
-.setTitle("Voici les commandes !").setImage("https://cdn.discordapp.com/attachments/707929619478610040/708364009031598110/Psyk0_face_112.png")
-.setAuthor("Psyk0b0t")
-.setColor(0xeb0b0b)
-.setDescription("Psyk0b0t est hébergé sur héroku, il est codé en Java scrypte par Zz_Lepisc#8288. Les commandes possibles sont :")
-.addField("Les commande p!ban, p!kick, p!clear, sont pour la modération !", true)
-.addField("La commande p!ms, vous donne le ping de Psyk0b0t,", true)
-.addField("La commande p!twitch, vous donne le lien twitch de Psyk0tr0pe,", true)
-.addField("La commande p!twitter, vous donne le twitter de Psyk0tr0pe,", true)
-.addField("La commande p!youtube, vous donne la chaine youtube de Psyk0tr0pe,", true )
-.addField("La commande p!snap, vous donne le snapchat de Psyk0tr0pe,", true)
-.addField("La commande p!projet, vous donne le projet future de Psyk0tr0pe,", true)
-.addField("La commande p!setup, vous donne le setup de Psyk0tr0pe,", true)
-.addField("La commande p!donnation, vous donne le lien de donnation,", true)
-.addField("La commande p!background, vous donne le background de Victor MacAllen.", true);
-*/
 
 const helpEmbed = new Discord.MessageEmbed()
 .setTitle("Voici les commandes !")
 .setAuthor("Lepisc_bot")
-.setColor(0x00AE86)
+.setColor(0xeb0b0b)
+.setThumbnail("https://cdn.discordapp.com/attachments/707929619478610040/708364009031598110/Psyk0_face_112.png")
 .setDescription("Psyk0b0t est hébergé sur héroku, il est codé en Java scrypte par Zz_Lepisc#8288. Les commandes possibles sont :")
 .addField("Les commande p!ban, p!kick, p!clear, sont pour la modération !", true)
 .addField("La commande p!ms, vous donne le ping de Psyk0b0t,", true)
