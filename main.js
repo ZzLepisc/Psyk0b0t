@@ -289,9 +289,9 @@ const helpEmbed = new Discord.MessageEmbed()
 
 
 client.on("message", (message) => {
-  if (message.content.startsWith("p!topd")) {
+  if (message.content.startsWith("p!top")) {
     message.delete()
-        console.log("La commande p!topd viens d'être réaliser par un utilisateur")
+        console.log("La commande p!top viens d'être réaliser par un utilisateur")
     message.channel.send("https://panels-images.twitch.tv/panel-145435385-image-d7b535cf-b6a3-41a7-9d2c-edbf05ac883a");
     message.channel.send("Merci Beaucoup les bros :")
     message.channel.send("O: BELAKoZo O: : 1229.15 €")
