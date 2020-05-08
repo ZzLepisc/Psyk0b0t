@@ -269,6 +269,7 @@ client.on("message", (message) => {
 const helpEmbed = new Discord.MessageEmbed()
 .setTitle("Voici les commandes !")
 .setAuthor("Psyk0b0t")
+.setimage("https://cdn.discordapp.com/attachments/707929619478610040/708364009031598110/Psyk0_face_112.png")
 .setColor(0x00AE86)
 .setDescription("Psyk0b0t est hébergé sur héroku, il est codé en Java scrypte par Zz_Lepisc#8288")
 .setDescription("Les commandes possibles sont :")
@@ -282,6 +283,6 @@ const helpEmbed = new Discord.MessageEmbed()
 .addField("La commande p!setup, vous donne le setup de Psyk0tr0pe,", true)
 .addField("La commande p!donnation, vous donne le lien de donnation,", true)
 .addField("La commande p!background, vous donne le background de Victor MacAllen.", true);
- 
+
 
 
