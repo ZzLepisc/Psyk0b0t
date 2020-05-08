@@ -161,7 +161,7 @@ client.on("message", (message) => {
   if (message.content.startsWith("p!twitter")) {
     message.delete()
         console.log("La commande p!twitter viens d'être réaliser par un utilisateur")
-    message.channel.send("twitter : https://twitter.com/Psyk0tr0peTV");
+    message.channel.send("Mon twitter : https://twitter.com/Psyk0tr0peTV");
   }
 });
 
@@ -170,7 +170,7 @@ client.on("message", (message) => {
   if (message.content.startsWith("p!youtube")) {
     message.delete()
         console.log("La commande p!youtube viens d'être réaliser par un utilisateur")
-    message.channel.send("youtube : https://www.youtube.com/channel/UCaC3O3ZWwzg2MzpUerqeQ_Q");
+    message.channel.send("Ma chaine youtube : https://www.youtube.com/channel/UCaC3O3ZWwzg2MzpUerqeQ_Q");
   }
 });
 
@@ -179,7 +179,7 @@ client.on("message", (message) => {
   if (message.content.startsWith("p!snap")) {
     message.delete()
         console.log("La commande p!snap viens d'être réaliser par un utilisateur")
-    message.channel.send("Snapchat : psykotropetv");
+    message.channel.send("Mon snap : psykotropetv");
   }
 });
 
@@ -188,12 +188,12 @@ client.on("message", (message) => {
   if (message.content.startsWith("p!twitch")) {
     message.delete()
         console.log("La commande !twitch viens d'être réaliser par un utilisateur")
-    message.channel.send("twitch : https://www.twitch.tv/psyk0tr0pe ");
+    message.channel.send(" Mon twitch : https://www.twitch.tv/psyk0tr0pe ");
   }
 });
 
 
-//Nouvelles émotes de subs et nouveau badges à venir pour participer à l'amélioration : https://twitch.streamlabs.com/psyk0tr0pe
+
 
 //----------------------------------------------projet--------------------------------------------
 
@@ -204,3 +204,17 @@ client.on("message", (message) => {
     message.channel.send("Nouvelles émotes de subs et nouveau badges à venir pour participer à l'amélioration : https://twitch.streamlabs.com/psyk0tr0pe");
   }
 });
+
+
+//---------------------------------------------setup-----------------------------------------
+
+
+
+client.on("message", (message) => {
+  if (message.content.startsWith("p!setup")) {
+    message.delete()
+        console.log("La commande p!setup viens d'être réaliser par un utilisateur")
+    message.channel.send("https://panels-images.twitch.tv/panel-145435385-image-1c4cbca7-dafc-451e-8926-27b7a13a217f");
+  }
+});
+
