@@ -218,3 +218,27 @@ client.on("message", (message) => {
   }
 });
 
+//----------------------------------------background------------------------------------------
+
+
+
+client.on("message", (message) => {
+  if (message.content.startsWith("p!background")) {
+    message.delete()
+        console.log("La commande p!background viens d'être réaliser par un utilisateur")
+    message.channel.send("Background RP : Le personnage que j'incarne est Victor MacAllen, il a 30 ans, il est dans la police depuis plusieurs années et il est particulièrement intéressé par les enquêtes. Il a une peur panique à l'idée de monter dans un hélicoptère. Il est veuf et pour le reste... Viens le découvrir sur le stream");
+  }
+});
+
+//-----------------------------------------donnation------------------------------------------
+
+client.on("message", (message) => {
+  if (message.content.startsWith("p!donnation")) {
+    message.delete()
+        console.log("La commande p!donnation viens d'être réaliser par un utilisateur")
+    message.channel.send("https://static-cdn.jtvnw.net/jtv_user_pictures/panel-145435385-image-478b7834-12c7-4a4b-8793-b687dc1e2acb");
+    message.channel.send("Les donations ne sont pas obligatoire mais ça fait toujours énormément plaisir ! Elles serviront en partie a améliorer le stream et a pouvoir prendre du nouveau matos. Vous pouvez me proposer des échanges dans la limite du raisonnable mais sachez que moi je ne le suis pas ; Les dons de skins serviront en général pour des giveaway !")
+    message.channel.send("Article 894 du code civil : La donation est un acte par lequel le donateur s'engage à abandonner la somme donnée. Un don est irrévocable. Il n'y aura donc aucun remboursement, quel qu'il soit !    ")
+    message.channel.send("https://streamlabs.com/psyk0tr0pe/tip")
+  }
+});
