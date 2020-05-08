@@ -264,16 +264,16 @@ client.on("message", (message) => {
         console.log("La commande p!donnation viens d'être réaliser par un utilisateur")
     message.channel.send("Psyk0b0t est hébergé sur héroku, il est codé en Java scrypte par Zz_Lepisc#8288");
     message.channel.send("Les commandes possibles sont : ")
-    message.channel.send("p!ban , p!kick , p!clear , sont pour la modération !,")
-    message.channel.send("p!ms , vous donne le ping de Psyk0b0t,")
-    message.channel.send("p!twitch , vous donne le lien twitch de Psyk0tr0pe,")
-    message.channel.send("p!twitter , vous donne le twitter de Psyk0tr0pe,")
-    message.channel.send("p!youtube , vous donne la chaine youtube de Psyk0tr0pe,")
-    message.channel.send("p!snap , vous donne le snapchat de Psyk0tr0pe,")
-    message.channel.send("p!projet , vous donne le projet future de Psyk0tr0pe,")
-    message.channel.send("p!setup , vous donne le setup de Psyk0tr0pe,")
-    message.channel.send("p!donnation , vous donne le lien de donnation")
-    message.channel.send("p!background , vous donne le background de Victor MacAllen")
+    message.channel.send("Les commande p!ban, p!kick, p!clear, sont pour la modération !")
+    message.channel.send(" La commande p!ms, vous donne le ping de Psyk0b0t,")
+    message.channel.send("La commande p!twitch, vous donne le lien twitch de Psyk0tr0pe,")
+    message.channel.send("La commande p!twitter, vous donne le twitter de Psyk0tr0pe,")
+    message.channel.send("La commande p!youtube, vous donne la chaine youtube de Psyk0tr0pe,")
+    message.channel.send("La commande p!snap, vous donne le snapchat de Psyk0tr0pe,")
+    message.channel.send("La commande p!projet, vous donne le projet future de Psyk0tr0pe,")
+    message.channel.send("La commande p!setup, vous donne le setup de Psyk0tr0pe,")
+    message.channel.send("La commande p!donnation, vous donne le lien de donnation,")
+    message.channel.send("La commande p!background, vous donne le background de Victor MacAllen.")
   }
 });
 
