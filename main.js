@@ -242,3 +242,39 @@ client.on("message", (message) => {
     message.channel.send("https://streamlabs.com/psyk0tr0pe/tip")
   }
 });
+
+
+//-------------------------------------------------------ig-----------------------------------------
+
+
+client.on("message", (message) => {
+  if (message.content.startsWith("p!ig")) {
+    message.delete()
+        console.log("La commande p!ig viens d'être réaliser par un utilisateur")
+    message.channel.send("https://panels-images.twitch.tv/panel-145435385-image-49dfd073-fa63-49e3-91ca-cfb664c37fb3");
+    message.channel.send("En achetant tes jeux avec ce lien en cliquant sur l'image tu m'aides à financer mes giveaways !!!!")
+  }
+});
+
+//--------------------------------------------information------------------------------------------
+
+client.on("message", (message) => {
+  if (message.content.startsWith("p!help")) {
+    message.delete()
+        console.log("La commande p!donnation viens d'être réaliser par un utilisateur")
+    message.channel.send("Psyk0b0t est hébergé sur héroku, il est codé en Java scrypte par Zz_Lepisc#8288");
+    message.channel.send("Les commandes possibles sont : ")
+    message.channel.send("p!ban , p!kick , p!clear , sont pour la modération !,")
+    message.channel.send("p!ms , vous donne le ping de Psyk0b0t,")
+    message.channel.send("p!twitch , vous donne le lien twitch de Psyk0tr0pe,")
+    message.channel.send("p!twitter , vous donne le twitter de Psyk0tr0pe,")
+    message.channel.send("p!youtube , vous donne la chaine youtube de Psyk0tr0pe,")
+    message.channel.send("p!snap , vous donne le snapchat de Psyk0tr0pe,")
+    message.channel.send("p!projet , vous donne le projet future de Psyk0tr0pe,")
+    message.channel.send("p!setup , vous donne le setup de Psyk0tr0pe,")
+    message.channel.send("p!donnation , vous donne le lien de donnation")
+    message.channel.send("p!background , vous donne le background de Victor MacAllen")
+  }
+});
+
+
