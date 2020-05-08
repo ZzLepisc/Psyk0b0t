@@ -282,4 +282,27 @@ const helpEmbed = new Discord.MessageEmbed()
 .addField("La commande p!projet, vous donne le projet future de Psyk0tr0pe,", true)
 .addField("La commande p!setup, vous donne le setup de Psyk0tr0pe,", true) 
 .addField("La commande p!donnation, vous donne le lien de donnation,", true)
-.addField("La commande p!background, vous donne le background de Victor MacAllen.", true)
+.addField("La commande p!background, vous donne le background de Victor MacAllen,", true)
+.addField("La commande p!topd, vous donne le tableau des tops dons twitch.", true)
+
+//--------------------------------------------Top donnation-------------------------------------
+
+
+client.on("message", (message) => {
+  if (message.content.startsWith("p!topd")) {
+    message.delete()
+        console.log("La commande p!topd viens d'être réaliser par un utilisateur")
+    message.channel.send("https://panels-images.twitch.tv/panel-145435385-image-d7b535cf-b6a3-41a7-9d2c-edbf05ac883a");
+    message.channel.send("Merci Beaucoup les bros :")
+    message.channel.send("O: BELAKoZo O: : 1229.15 €")
+    message.channel.send("O: Nelief_tv O: : 620.00 €")
+    message.channel.send("<3<3<3<3 TeeMx <3<3<3<3: 308.73 €")
+    message.channel.send("<3<3 ledieudeslicornes <3<3 : 261.99 €")
+    message.channel.send("<3<3 iRyzeNH1 <3<3: 149.25 €")
+    message.channel.send("<3 farelas06 <3 : 139.00 €")
+    message.channel.send("<3<3 Hellzafr <3<3 : 138.00 €")
+    message.channel.send("<3 MCSTF_Panda <3 : 122.00 €")
+    message.channel.send("<3 MimiSako <3 : 100 €")
+    message.channel.send("<3 Perfidious <3 : 80 €")
+  }
+});
