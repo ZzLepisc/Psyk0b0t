@@ -159,9 +159,9 @@ client.on("message", (message) => {
 
 
 client.on("message", (message) => {
-  if (message.content.startsWith("p!twitter")) {
+  if (message.content.startsWith("p!tweeter")) {
     message.delete()
-        console.log("La commande p!twitter viens d'être réaliser par un utilisateur")
+        console.log("La commande p!tweeter viens d'être réaliser par un utilisateur")
     message.channel.send("Mon twitter : https://twitter.com/Psyk0tr0peTV");
   }
 });
@@ -276,7 +276,7 @@ const helpEmbed = new Discord.MessageEmbed()
 .addField("Les commande p!ban, p!kick, p!clear, sont pour la modération !", true)
 .addField("La commande p!ms, vous donne le ping de Psyk0b0t,", true)
 .addField("La commande p!twitch, vous donne le lien twitch de Psyk0tr0pe,", true)
-.addField("La commande p!twitter, vous donne le twitter de Psyk0tr0pe,", true)
+.addField("La commande p!tweeter, vous donne le twitter de Psyk0tr0pe,", true)
 .addField("La commande p!youtube, vous donne la chaine youtube de Psyk0tr0pe,", true)
 .addField("La commande p!snap, vous donne le snapchat de Psyk0tr0pe", true)
 .addField("La commande p!projet, vous donne le projet future de Psyk0tr0pe,", true)
