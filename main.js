@@ -28,7 +28,6 @@ client.on("ready", () => {
 
 client.on("message", (message) => {
     if (message.content.startsWith("p!ms")) {
-      message.delete()
           console.log("La commande !ms viens d'être réaliser par un utilisateur")
       message.channel.send('Le ping est de : `' + `${Date.now() - message.createdTimestamp}` + ' ms`');
     }
@@ -148,7 +147,6 @@ client.on('message', function (message) {
 
 client.on("message", (message) => {
     if (message.content.startsWith("p!créateur")) {
-      message.delete()
           console.log("La commande !twitch viens d'être réaliser par un utilisateur")
       message.channel.send("Ce bot a était créé par @Zz_Lepisc#8288 pour la caumunauté du grand streamer Psyk0tr0pe");
     }
@@ -160,7 +158,6 @@ client.on("message", (message) => {
 
 client.on("message", (message) => {
   if (message.content.startsWith("p!tweeter")) {
-    message.delete()
         console.log("La commande p!tweeter viens d'être réaliser par un utilisateur")
     message.channel.send("Mon twitter : https://twitter.com/Psyk0tr0peTV");
   }
@@ -169,7 +166,6 @@ client.on("message", (message) => {
 
 client.on("message", (message) => {
   if (message.content.startsWith("p!youtube")) {
-    message.delete()
         console.log("La commande p!youtube viens d'être réaliser par un utilisateur")
     message.channel.send("Ma chaine youtube : https://www.youtube.com/channel/UCaC3O3ZWwzg2MzpUerqeQ_Q");
   }
@@ -178,7 +174,6 @@ client.on("message", (message) => {
 
 client.on("message", (message) => {
   if (message.content.startsWith("p!snap")) {
-    message.delete()
         console.log("La commande p!snap viens d'être réaliser par un utilisateur")
     message.channel.send("Mon snap : psykotropetv");
   }
@@ -187,7 +182,6 @@ client.on("message", (message) => {
 
 client.on("message", (message) => {
   if (message.content.startsWith("p!twitch")) {
-    message.delete()
         console.log("La commande !twitch viens d'être réaliser par un utilisateur")
     message.channel.send(" Mon twitch : https://www.twitch.tv/psyk0tr0pe ");
   }
@@ -200,7 +194,6 @@ client.on("message", (message) => {
 
 client.on("message", (message) => {
   if (message.content.startsWith("p!projet")) {
-    message.delete()
         console.log("La commande p!projet viens d'être réaliser par un utilisateur")
     message.channel.send("Nouvelles émotes de subs et nouveau badges à venir pour participer à l'amélioration : https://twitch.streamlabs.com/psyk0tr0pe");
   }
@@ -213,7 +206,6 @@ client.on("message", (message) => {
 
 client.on("message", (message) => {
   if (message.content.startsWith("p!setup")) {
-    message.delete()
         console.log("La commande p!setup viens d'être réaliser par un utilisateur")
     message.channel.send("https://panels-images.twitch.tv/panel-145435385-image-1c4cbca7-dafc-451e-8926-27b7a13a217f");
   }
@@ -225,7 +217,6 @@ client.on("message", (message) => {
 
 client.on("message", (message) => {
   if (message.content.startsWith("p!background")) {
-    message.delete()
         console.log("La commande p!background viens d'être réaliser par un utilisateur")
     message.channel.send("Background RP : Le personnage que j'incarne est Victor MacAllen, il a 30 ans, il est dans la police depuis plusieurs années et il est particulièrement intéressé par les enquêtes. Il a une peur panique à l'idée de monter dans un hélicoptère. Il est veuf et pour le reste... Viens le découvrir sur le stream");
   }
@@ -235,7 +226,6 @@ client.on("message", (message) => {
 
 client.on("message", (message) => {
   if (message.content.startsWith("p!donnation")) {
-    message.delete()
         console.log("La commande p!donnation viens d'être réaliser par un utilisateur")
     message.channel.send("https://static-cdn.jtvnw.net/jtv_user_pictures/panel-145435385-image-478b7834-12c7-4a4b-8793-b687dc1e2acb");
     message.channel.send("Les donations ne sont pas obligatoire mais ça fait toujours énormément plaisir ! Elles serviront en partie a améliorer le stream et a pouvoir prendre du nouveau matos. Vous pouvez me proposer des échanges dans la limite du raisonnable mais sachez que moi je ne le suis pas ; Les dons de skins serviront en général pour des giveaway !")
@@ -250,7 +240,6 @@ client.on("message", (message) => {
 
 client.on("message", (message) => {
   if (message.content.startsWith("p!ig")) {
-    message.delete()
         console.log("La commande p!ig viens d'être réaliser par un utilisateur")
     message.channel.send("https://panels-images.twitch.tv/panel-145435385-image-49dfd073-fa63-49e3-91ca-cfb664c37fb3");
     message.channel.send("En achetant tes jeux avec ce lien en cliquant sur l'image tu m'aides à financer mes giveaways !!!!")
@@ -261,7 +250,6 @@ client.on("message", (message) => {
 
 client.on("message", (message) => {
   if (message.content.startsWith("p!help")) {
-    message.delete()
         console.log("La commande p!help viens d'être réaliser par un utilisateur")
     message.channel.send(helpEmbed)
 }});
@@ -290,7 +278,6 @@ const helpEmbed = new Discord.MessageEmbed()
 
 client.on("message", (message) => {
   if (message.content.startsWith("p!top")) {
-    message.delete()
         console.log("La commande p!top viens d'être réaliser par un utilisateur")
     message.channel.send("https://panels-images.twitch.tv/panel-145435385-image-d7b535cf-b6a3-41a7-9d2c-edbf05ac883a");
     message.channel.send("Merci Beaucoup les bros :")
@@ -316,8 +303,8 @@ client.on("message", (message) => {
         console.log("La commande p!patch-note viens d'être réaliser par un utilisateur")
     message.channel.send("https://cdn.discordapp.com/attachments/644948018486837258/709384343084204092/patchnotes.png");
     message.channel.send("Bien le bonsoir,")
-    message.channel.send("Le Psyk0b0t peut répondre a la commande `p!help` ce qui vous donnera toutes les commandes possible pour l'instant. Il y a encore quelque soucis avec cette commande ce qui va etre règler au plus vite. ")
-    message.channel.send("Ce channel sera dédié au bot Psyk0b0t, comme a dit notre chère Scuti, il y aura des patch-note, des annonces. Vous pourrez y mettres vos idées, vos conseils, ect. En gros tout ce qui a un rapport avec Psyk0b0t.")
+    message.channel.send("Petite mise a jours du patch-note :")
+    message.channel.send("Certaines commande ne se supprime plus : Avant quand vous faisiez une commandes, votre message ce suupprimmer, maintant plus.")
     message.channel.send("Sur ce, bonne soirée !")
   }
 });
