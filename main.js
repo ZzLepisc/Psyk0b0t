@@ -271,7 +271,7 @@ const helpEmbed = new Discord.MessageEmbed()
 .addField("La commande p!setup, vous donne le setup de Psyk0tr0pe,", true) 
 .addField("La commande p!donnation, vous donne le lien de donnation,", true)
 .addField("La commande p!background, vous donne le background de Victor MacAllen,", true)
-.addField("La commande p!topd vous donne le tableau des tops dons twitch.", true)
+.addField("La commande p!topd, vous donne le tableau des tops dons twitch.")
 
 //--------------------------------------------Top donnation-------------------------------------
 
