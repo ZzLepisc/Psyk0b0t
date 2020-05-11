@@ -316,8 +316,7 @@ client.on("message", (message) => {
         console.log("La commande p!patch-note viens d'être réaliser par un utilisateur")
     message.channel.send("https://cdn.discordapp.com/attachments/644948018486837258/709384343084204092/patchnotes.png");
     message.channel.send("Bien le bonsoir,")
-    message.channel.send("Le Psyk0b0t peut répondre a la commande `p!help` ce qui vous donnera toutes les commandes possible pour l'instant. Il y a encore quelque soucis avec cette commande ce qui etre règler au plus vite. ")
-    message.channel.send("")
+    message.channel.send("Le Psyk0b0t peut répondre a la commande `p!help` ce qui vous donnera toutes les commandes possible pour l'instant. Il y a encore quelque soucis avec cette commande ce qui va etre règler au plus vite. ")
     message.channel.send("Ce channel sera dédié au bot Psyk0b0t, comme a dit notre chère Scuti, il y aura des patch-note, des annonces. Vous pourrez y mettres vos idées, vos conseils, ect. En gros tout ce qui a un rapport avec Psyk0b0t.")
     message.channel.send("Sur ce, bonne soirée !")
   }
