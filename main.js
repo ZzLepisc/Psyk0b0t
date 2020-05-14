@@ -304,8 +304,33 @@ client.on("message", (message) => {
     message.channel.send("https://cdn.discordapp.com/attachments/644948018486837258/709384343084204092/patchnotes.png");
     message.channel.send("Bien le bonsoir,")
     message.channel.send("Petite mise a jours du patch-note :")
-    message.channel.send("Certaines commande ne se supprime plus : Avant quand vous faisiez une commandes, votre message ce suupprimmer, maintant plus.")
-    message.channel.send("Le designe de la commande `p!help` a était modifié.")
+    message.channel.send("La commande `p!userinfo` a était ajouté.")
+    message.channel.send("Une Blacklist de mot a était ajouté, vous pouvez proposé des modification de la blacklist dans ce channel.")
     message.channel.send("Sur ce, bonne soirée !")
   }
 });
+
+
+
+
+//------------------Info Joueur-------------------------
+
+client.on('message', message => {
+  if (message.author.bot) return;
+  if (message.content ===  'p!userinfo') {
+  console.log("-----------La commande !userinfo viens d'être réaliser par un utilisateur-----------")
+    message.channel.send(`Ton pseudo Discord: __**${message.author.username}**__\nTon ID de profil: __**${message.author.id}**__`)
+  }
+})
+
+
+//------------------Gros Mots--------------------------
+
+client.on("message", message => {
+  const swearWords = ["tg", "Tg", "pute", "Pute", "PUTE", "Ta gueule", "Batard", "batard", "TG", "tG", "putin", "Putin", "FDP", "Fdp", "fdp", "connard", "Connard", "connasse", "Connasse", "mongole", "Mongole", "CON", "Con", "con", "handicapee", "handicape", "salo", "Salo", "salope", "Salope", "bite", "Bite", "Fuck", "fuck", "Nick", "nique", "Nique", "chienne", "Chienne", "sale", "Sale", "merde", "Merde", "drogue", "Drogue", "shit", "Shit", "Coke", "coke", "weed", "Weed", "Cannabis", "cannabis", "cocaine", "Cocaine", "Pookie", "pookie"];
+  if( swearWords.some(word => message.content.includes(word)) ) {
+    console.log("-----------Un gros mots vient d'être dit par un utilisateur-----------")
+  message.delete()
+    message.reply("Un mot interdit vient d'etre utilisé");
+    
+  }} )
