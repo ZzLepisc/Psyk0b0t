@@ -273,6 +273,7 @@ const helpEmbed = new Discord.MessageEmbed()
 .addField("`p!background`"," Cette commande vous donne le background de Victor MacAllen,", true)
 .addField("`p!topd`"," Cette commande vous donne le tableau des tops dons twitch.", true)
 .addField("`p!userinfo`","Cette commande vous donnes des information sur vous (pseudo et id)", true)
+.addField("`p!avatar`","Cette commande vous donnes votre avatar discord.", true)
 //--------------------------------------------Top donnation-------------------------------------
 
 
