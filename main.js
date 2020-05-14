@@ -257,7 +257,7 @@ client.on("message", (message) => {
 
 const helpEmbed = new Discord.MessageEmbed()
 .setTitle("Voici les commandes !")
-.setAuthor("Lepisc_bot")
+.setAuthor("Psyk0B0t")
 .setColor(0xeb0b0b)
 .setThumbnail("https://cdn.discordapp.com/attachments/707929619478610040/708364009031598110/Psyk0_face_112.png")
 .setDescription("Psyk0b0t est hébergé sur héroku, il est codé en Java scrypte par Zz_Lepisc#8288. Les commandes possibles sont :")
@@ -334,3 +334,15 @@ client.on("message", message => {
     message.reply("Un mot interdit vient d'etre utilisé");
     
   }} )
+
+
+
+  //----------------------Avatar-----------------------
+  
+client.on('message', message => {
+  if (message.author.bot) return;
+  if (message.content === 'p!avatar') {
+    console.log("-----------La commande !avatar viens d'être réaliser par un utilisateur-----------")
+    message.reply(message.author.displayAvatarURL());
+  }
+});
