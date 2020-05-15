@@ -326,7 +326,7 @@ client.on('message', message => {
 
 
 //------------------Gros Mots--------------------------
-
+/*
 client.on("message", message => {
   const swearWords = ["tg", "Tg", "pute", "Pute", "PUTE", "Ta gueule", "Batard", "batard", "TG", "tG", "putin", "Putin", "FDP", "Fdp", "fdp", "connard", "Connard", "connasse", "Connasse", "mongole", "Mongole", "CON", "Con", "con", "handicapee", "handicape", "salo", "Salo", "salope", "Salope", "bite", "Bite", "Fuck", "fuck", "Nick", "nique", "Nique", "chienne", "Chienne", "sale", "Sale", "merde", "Merde", "drogue", "Drogue", "shit", "Shit", "Coke", "coke", "weed", "Weed", "Cannabis", "cannabis", "cocaine", "Cocaine", "Pookie", "pookie"];
   if( swearWords.some(word => message.content.includes(word)) ) {
@@ -335,7 +335,7 @@ client.on("message", message => {
     message.reply("Un mot interdit vient d'etre utilisé");
     
   }} )
-
+*/
 
 
   //----------------------Avatar-----------------------
